@@ -1,10 +1,9 @@
-package com.example.demo;
+package com.example.demo.services;
 import com.example.demo.model.Job;
+import com.example.demo.services.EmployeeService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
-import java.awt.*;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
